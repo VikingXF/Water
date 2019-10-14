@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7bcd23849d3326149b6985a445b69edd
+timeCreated: 1452188006
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _BumpMap: {instanceID: 0}
+  - _HeightMap: {instanceID: 0}
+  - _MainTex2: {instanceID: 0}
+  - _BumpMap2: {instanceID: 0}
+  - _HeightMap2: {instanceID: 0}
+  - _FlowMap: {instanceID: 0}
+  - TERRAIN_FlowingMap: {instanceID: 0}
+  - TERRAIN_RippleMap: {fileID: 2800000, guid: 87b672e098a28584d82865fa6f149b44, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

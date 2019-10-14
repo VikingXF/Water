@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fishing water
+  m_Shader: {fileID: 4800000, guid: 4d52b54f43cfafc4cb223e408b829ddf, type: 3}
+  m_ShaderKeywords: _USEINTERSECTIONHIGHLIGHT_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: afbc355e37741da4aadb523b8e24a4cc, type: 3}
+        m_Scale: {x: 15, y: 15}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: afbc355e37741da4aadb523b8e24a4cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorControl:
+        m_Texture: {fileID: 2800000, guid: bcec3bb5e5b59e7489f36f1834abe83f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeTex:
+        m_Texture: {fileID: 2800000, guid: bd6f022efaaa744d597825677ccc720c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_mov:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GTex:
+        m_Texture: {fileID: 2800000, guid: 89b7ffc6ec679564b979c1252bc1fb21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Grass_Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height_Disp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightTex:
+        m_Texture: {fileID: 2800000, guid: f70d22245e7aeee4a8bfb80d38cbfbc7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightsTex:
+        m_Texture: {fileID: 2800000, guid: f65d5096064888e43a717969f16ef73a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e6d519ceefbccfd4196ced86aa361a95, type: 3}
+        m_Scale: {x: 7, y: 7}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Blend:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NRM_None:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 58679e81e1617994ea88417dbfc40d37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 947374229, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sand_Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shadermap:
+        m_Texture: {fileID: 947374229, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTex:
+        m_Texture: {fileID: 2800000, guid: e34690ea357e3254094206e7e7bc982a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 2800000, guid: 485b5232ba7e70345bf0ebb6799675cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _lightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_foam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AngleRock: 0.5
+    - _BumpPower: 0.76
+    - _Cutoff: 0.5
+    - _Depth: 30
+    - _Depthdarkness: 0.5
+    - _EdgeRange: 2.52
+    - _Fallof_Grass: 1
+    - _Fallof_Sand_Wet: 0
+    - _Foam_Width: 3
+    - _Foam_speed: 0
+    - _Foam_width: 1
+    - _FresnelScale: 0.75
+    - _Fresnelexponent: 4
+    - _GerstnerIntensity: 1
+    - _Gloss: 21.5
+    - _Glossiness: 1
+    - _Hardness: 5
+    - _Height_Grass: 100
+    - _Height_factor: 0.001
+    - _Height_wet: 3072
+    - _HighlightPanning: 0
+    - _NRMIntensity: 0
+    - _NoiseRange: 1.71
+    - _OpacitySeaside: 0.1
+    - _Opacityofftheocean: 0.95
+    - _Posterize_step: 10
+    - _Range: -0.08
+    - _ReflDistort: 0.44
+    - _RefrDistort: 0.4
+    - _Refract: 0.04
+    - _Refraction: 0
+    - _RefractionAmount: 0.1
+    - _RimDistance: 0.1
+    - _RimSize: 2
+    - _Rimfalloff: 0.25
+    - _Rimtiling: 2
+    - _Roughness: 0
+    - _SeaSide_deep_width: 12
+    - _SeaSide_width: 15
+    - _Shininess: 200
+    - _Specular: 2.84
+    - _SurfaceHighlight: 0.05
+    - _SurfaceHightlighttiling: 0.25
+    - _Surfacehightlightsize: 0
+    - _Tesselation: 1
+    - _Tessellation: 0.1
+    - _Tiling: 0.9
+    - _Transparency: 0.75
+    - _UseIntersectionHighlight: 1
+    - _WAVE_height: 0
+    - _WAVE_movement: 0
+    - _WaterSpeed: 0.11
+    - _WaveDelta: 2.43
+    - _WaveRange: 2.89
+    - _WaveScale: 0.063
+    - _WaveSize: 0.41
+    - _WaveSpeed: 7.07
+    - _Wavesspeed: 0.75
+    - _Wavesstrength: 0
+    - _Wavetint: 0
+    - _Worldspacetiling: 0
+    - _foam_white_width: 0
+    - _grass_distance: 0
+    - _grass_distance_Fallof: 0
+    - _mask_hardness: 0
+    - _off_ocean_depth: 12
+    - _opacity_foam_width: 12
+    - _u_1DivLevelHeight: 0.6
+    - _u_1DivLevelWidth: 0.6
+    - _u_reflectionFactor: 0.6
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _AnimationDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _AnimationTiling: {r: 2.2, g: 2.2, b: -1.1, a: -1.1}
+    - _BaseColor: {r: 0.54, g: 0.95, b: 0.99, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
+    - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
+    - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FarColor: {r: 0.102941155, g: 0.8515212, b: 1, a: 1}
+    - _Foam: {r: 0.1, g: 0.375, b: 0, a: 0}
+    - _FoamSpeed_x1_y1_x2_y2: {r: 0.01, g: 0.01, b: 0.02, a: 0.02}
+    - _FoamSpeed_x1y1x2y2: {r: 0.02, g: 0.02, b: 0.02, a: 0.02}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _GAmplitude: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
+    - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 1.3, g: 1.35, b: 1.25, a: 1.25}
+    - _GSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
+    - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.172, g: 0.463, b: 0.435, a: 1}
+    - _InvFadeParemeter: {r: 0.15, g: 0.15, b: 0.5, a: 1}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightDir: {r: -17.66, g: 7.2, b: 4.25, a: 6.4}
+    - _LightVector: {r: 12.77, g: 11.9, b: 31.24, a: 4.38}
+    - _Range: {r: -89.69, g: -17.3, b: 0.16, a: 0.23}
+    - _ReflectionColor: {r: 0.54, g: 0.95, b: 0.99, a: 0.5}
+    - _RefrColor: {r: 0.34, g: 0.85, b: 0.92, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SEA_DARK: {r: 1, g: 1, b: 1, a: 1}
+    - _SEA_LIGHT: {r: 1, g: 1, b: 1, a: 1}
+    - _SHORE_DARK: {r: 1, g: 1, b: 1, a: 1}
+    - _SHORE_LIGHT: {r: 1, g: 1, b: 1, a: 1}
+    - _Sand_wet: {r: 0.5073529, g: 0.4679894, b: 0.3394788, a: 1}
+    - _SeaSide_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SeaSidedeep: {r: 0, g: 0.2862745, b: 0.427451, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
+    - _WaterColor: {r: 0.14489621, g: 0.5948061, b: 0.9852941, a: 1}
+    - _WaveOffset: {r: 0.03, g: 0, b: 0.03, a: 0.03}
+    - _WaveSmallSpeedx1y1x2y2: {r: 0.1, g: 0.1, b: 0.1, a: 0.1}
+    - _WaveSpeedx1y1x2y2: {r: 0.05, g: 0.05, b: 0.05, a: 0.05}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
+    - _color_Grass: {r: 0.3969432, g: 0.6985294, b: 0.1900411, a: 1}
+    - _color_Rock: {r: 0.5441177, g: 0.3826788, b: 0.3120675, a: 1}
+    - _color_foam: {r: 0.9338235, g: 0.9972616, b: 1, a: 1}
+    - _color_water_1: {r: 1, g: 1, b: 1, a: 1}
+    - _color_water_2: {r: 0, g: 0, b: 0, a: 1}
+    - _horizonColor: {r: 0.172, g: 0.463, b: 0.435, a: 0}
+    - _offoceancolor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _shallowWater: {r: 0.6397059, g: 0.9552739, b: 1, a: 1}
+    - _u_lightPos: {r: 1, g: 1, b: 1, a: 1}

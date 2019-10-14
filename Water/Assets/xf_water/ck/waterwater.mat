@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: waterwater
+  m_Shader: {fileID: 4800000, guid: d9aadf67960f2094ba8b5287377d43ff, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - foam:
+        m_Texture: {fileID: 2800000, guid: 562f232342eaa134894f3f6428d02509, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - lightmap:
+        m_Texture: {fileID: 2800000, guid: 2ae8ee9482004da4fa1d4bae7904eacd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - normal0:
+        m_Texture: {fileID: 2800000, guid: 562f232342eaa134894f3f6428d02509, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - WAVE_HEIGHT: 2.54
+    - WAVE_MOVEMENT: 2.97
+    - u_1DivLevelHeight: 2.74
+    - u_1DivLevelWidth: 7.52
+    - u_reflectionFactor: 11.84
+    m_Colors:
+    - SEA_DARK: {r: 0, g: 1, b: 1, a: 1}
+    - SEA_LIGHT: {r: 0, g: 1, b: 1, a: 1}
+    - SHORE_DARK: {r: 0, g: 0, b: 0, a: 0}
+    - SHORE_LIGHT: {r: 0, g: 1, b: 1, a: 0}
+    - u_lightPos: {r: 0, g: 1, b: 1, a: 1}
+    - u_mvp: {r: 1, g: 1, b: 1, a: 1}
