@@ -1,0 +1,31 @@
+.vs
+.vscode
+.DS_Store
+.git/
+.svn
+/.unopkg/
+/.uno/.initcache
+/Temp/
+/obj/
+
+/bin/
+/Library/*
+!Library/EditorUserBuildSettings.asset
+*.csproj
+*.csproj.user
+*.sln
+VsCode/
+Water/Library
+Water/Temp
+Water/Logs/
+Water/Packages/
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
