@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &82385574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 48a7af9726b098c4593b67b5e46067b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 775520904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &153810310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -304,6 +310,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 48a7af9726b098c4593b67b5e46067b7, type: 3}
       propertyPath: m_Name
       value: Pond
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 48a7af9726b098c4593b67b5e46067b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 48a7af9726b098c4593b67b5e46067b7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -781,3 +791,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 0.08
   period: 0.9
+--- !u!1001 &1980558814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 82385574}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_Name
+      value: wave
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000003774895
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1210423
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1210423
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1210423
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24083d8d44a30eb4d9218220f64944c8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 994b36c953ba2ef43a1ccf0bcef1b275, type: 3}
